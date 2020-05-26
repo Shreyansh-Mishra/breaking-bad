@@ -1,0 +1,90 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #000000;">
+<div id="navbar">
+
+</div>    
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+    <a id="nav" href="#cast">Cast</a>
+    <a id="nav" href="">Episodes</a>
+    <a id="nav" href="">Spinoffs</a>
+    <a id="nav" href="#about">About</a>
+    <a id="nav" href="#placeholder">Placeholder</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<div id="banner" style="margin: 0px auto; display:block;">
+    <br><br><br>
+    <img src="./images/banner.jpg" style="width: 100%; height: auto; margin: 0 auto; display: block;">
+</div>
+
+
+
+<div id="center" style="padding: 3%;">
+    <img src="./images/4in1.png" style="width: 50%; height: auto; margin: 0 auto; display: block;" align="center">
+    <p align="center" id="cook">lets Cook</p>
+</div>
+
+
+<div id="leftset">
+    <img src="./images/WalterWhite.png" style="max-width: 30%; height: auto; padding: 2%;" align="left" id="walt">
+    <p id="dialogue" class='walter'>I am the one who KNOCKS</p>
+    <p align="right" style="font-family: 'Lucida Console'; font-size: 2vw;">-Walter White, aka Heisenberg</p>
+</div>
+
+<br><br><br><br><br>
+
+<div id="rightset">
+    <img src="./images/jesse.png" style="max-width: 30%; height: auto; padding: 2%;" align="right" id='jesse'>
+    <p id="dialogue2">Coin flip is Sacred</p>
+    <p align="right" style="font-family: 'Lucida Console'; font-size: 2vw;">-Jesse Pinkman</p>
+</div>
+
+<br><br><br><br><br>
+
+<div id="leftset">
+    <img src="./images/gus.png" style="max-width: 30%; height: auto; padding: 0%; " align="left" id='gus'>
+    <p id="dialogue3">Never make the Same mistake twice</p>
+    <p align="right" style="font-family: 'Lucida Console'; font-size: 2vw;">-Gustavo Fring</p>
+</div>
+
+<br><br><br><br><br>
+
+<div id="rightset">
+    <img src="./images/hank.png" style="max-width: 30%; height: auto; padding: 2%;" align="right" id='hank'>
+    <p id="dialogue4">You can go fUck Yourself</p>
+    <p align="right" style="font-family: 'Lucida Console'; font-size: 2vw;">-Hank Schrader</p>
+</div>
+
+<br><br><br><br><br>
+<div id="leftset">
+    <img src="./images/saul.png" style="max-width: 30%; height: auto; padding-right: 10%;" align="left" id='saul'>
+    <p id="dialogue5">Better Call Saul</p>
+    <p align="right" style="font-family: 'Lucida Console'; font-size: 2vw;">-Saul Goodman</p>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
